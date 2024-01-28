@@ -40,3 +40,27 @@
     padding: 40px;
   }
 
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-cls {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.nav-design {
+  width: 100%;
+  position: relative;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+.bg-cls {
+  background-color: #000 !important;
+  border-radius: 0px;
+  font-family: Josefin Sans;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+}

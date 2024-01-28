@@ -1,0 +1,28 @@
+
+/*used of education.jsx */
+.edu-cls {
+    margin: 0px 15vh !important;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+.btn-title {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 21px !important;
+    font-weight: bold;
+}
+/*to give fadein effect for title */
+.fadeInLeft {
+    animation: fadeLeft 2s;
+}
+
+@keyframes fadeLeft {
+    from {opacity: 0; transform: translateX(-5%);}
+    to {opacity: 1; transform: translateX(0);}
+}

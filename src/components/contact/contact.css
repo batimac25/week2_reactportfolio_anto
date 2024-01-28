@@ -1,0 +1,9 @@
+.anto-contact-text p a,
+input,
+input::placeholder,
+textarea::placeholder,
+.btn-send-message{
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}

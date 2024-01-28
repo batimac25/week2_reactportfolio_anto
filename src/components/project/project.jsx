@@ -1,22 +1,23 @@
+import './../project/project.css';
 export default function Project(){
     return (
         <>
        <section className="anto-projects-section" data-section="projects" id="projects">
     <div className="anto-section-content">
       <div className="row">
-        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+        <div className="fadeInLeft" data-animate-effect="fadeInLeft">
           <span className="heading-meta">What I did?</span>
           <h2 className="anto-title">Here are my projects</h2>
         </div>
       </div>
-      <div className="row row-pt-md">
-        <div className="col-md-12 text-center animate-box">
+      <div className="row">
+        <div className="col-md-12 text-center animate-box textFade">
           <div className="services color-1">
             <span className="icon">
               <i className="icon-data"></i>
             </span>
             <div className="desc text-left">
-              <h3>SmartPRA (Passenger Revenue Accounting)</h3>
+              <h2><strong>SmartPRA (Passenger Revenue Accounting)</strong></h2>
               <p><strong>Organization:</strong> Altimetrik (Dec 2019 – Jul 2021), Sutherland Global Services (Aug 2022 - present)<br />
                  <strong>Client:</strong> Qatar, Indigo, Oman, Hahn, Copa, Air Nugini Airlines<br />
                  <strong>Environment:</strong> Spring Boot, Microservices<br /></p>
@@ -38,12 +39,12 @@ export default function Project(){
                  
             </div>
           </div>
-          <div className="projects color-2">
+          <div className="services color-2">
             <span className="icon">
               <i className="icon-data"></i>
             </span>
             <div className="desc text-left">
-              <h3>Credit Card Processing System</h3>
+            <h2><strong>Credit Card Processing System</strong></h2>
               <p><strong>Organization:</strong> SysArc Infomatix Pvt Ltd<br />
                  <strong>Duration:</strong> October 2017 - August 2019<br />
                  <strong>Client:</strong> Abu Dhabi Commercial Bank, Eastern Bank Limited<br />
@@ -63,12 +64,12 @@ export default function Project(){
                  
             </div>
           </div>
-          <div className="projects color-3">
+          <div className="services color-3">
             <span className="icon">
               <i className="icon-data"></i>
             </span>
             <div className="desc text-left">
-              <h3>Lending Automation Processing System</h3>
+            <h2><strong>Lending Automation Processing System</strong></h2>
               <p><strong>Organization:</strong> SysArc Infomatix Pvt Ltd<br />
                  <strong>Duration:</strong> October 2017 - August 2019<br /> 
                  <strong>Client:</strong> Abu Dhabi Commercial Bank, Eastern Bank Limited, Al Masraf, Yes Bank<br />

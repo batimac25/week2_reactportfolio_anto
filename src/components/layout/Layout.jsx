@@ -6,22 +6,35 @@ import './../layout/layout.css'
 export default function Layout(){
     return (
         <>
-        <a href="#" className="anto-nav-toggle-js anto-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-        <div className='title-bar-outer'>
-        <div className='title-bar'>
-              <div className='logo'>
-                    <img src={portfolio_logo} width='100px' height='100px'></img>
-              </div>
-              <div className='menu-bar'>
-                <nav id="anto-main-section-menu" role="navigation" className="navbar">
-                <div id="navbar">
-                    <Link to="/" >Home</Link>  <Link to="/about">About</Link>  <Link to="/education">Education</Link> 
-                    <Link to="/project">Project</Link>  <Link to="/service">Services</Link>  <Link to="/contact">Contact</Link>
-                </div>
-                </nav>
-              </div>
-        </div>
-        </div>
+        <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-cls">
+            <img src={portfolio_logo} className="logo-cls"></img>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul className="navbar-nav nav-design">
+                    <li className="nav-item">
+                        <Link to="/" >Home</Link> 
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/about">About</Link> 
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/education">Education</Link> 
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/project">Project</Link> 
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/service">Services</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         </>
     );
 }
