@@ -27,7 +27,7 @@ return (<>
         <li className='rl-animation'>
               <div className="wd-100">
                   <div className="txt-center">
-                    <h1 className="mb-4 txt-cls">I am a Java Microservices Developer</h1>
+                    <h1 className="mb-4 txt-cls">I am a Full Stack Developer</h1>
                     <p><a className="btn-style" href="https://www.linkedin.com/in/antony-t-infant/"
                         target="_blank">View LinkedIn <i className="icon-linkedin22"></i></a></p>
                   </div>
@@ -40,7 +40,7 @@ return (<>
                     <h1>I am a catalyst for digital transformation, 
                        merging a deep understanding of Java technologies with a dynamic approach to 
                       full stack development to deliver solutions that drive progress, efficiency, and success in the digital age.</h1>
-                  </div>  
+                  </div>    
                 </div>
         </li>
       </ul>
