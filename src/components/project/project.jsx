@@ -1,4 +1,12 @@
+/* FileName : project.jsx,
+ * StudentName : Antony Tibursias Brightes Machado
+ * StudentId : 301380198
+ * Date : 02-02-2024 */
+
 import './../project/project.css';
+import praimg from '../../assets/images/praimg.jpeg';
+import credit from '../../assets/images/credit.jpeg';
+import loan from '../../assets/images/loan.jpeg';
 export default function Project(){
     return (
         <>
@@ -18,6 +26,9 @@ export default function Project(){
             </span>
             <div className="desc text-left">
               <h2><strong>SmartPRA (Passenger Revenue Accounting)</strong></h2>
+              <div className="text-center">
+                 <div ><img src={praimg} className="author-img"></img></div>
+                 </div>
               <p><strong>Organization:</strong> Altimetrik (Dec 2019 – Jul 2021), Sutherland Global Services (Aug 2022 - present)<br />
                  <strong>Client:</strong> Qatar, Indigo, Oman, Hahn, Copa, Air Nugini Airlines<br />
                  <strong>Environment:</strong> Spring Boot, Microservices<br /></p>
@@ -45,6 +56,9 @@ export default function Project(){
             </span>
             <div className="desc text-left">
             <h2><strong>Credit Card Processing System</strong></h2>
+            <div className="text-center">
+                 <div ><img src={credit} className="author-img"></img></div>
+                 </div>
               <p><strong>Organization:</strong> SysArc Infomatix Pvt Ltd<br />
                  <strong>Duration:</strong> October 2017 - August 2019<br />
                  <strong>Client:</strong> Abu Dhabi Commercial Bank, Eastern Bank Limited<br />
@@ -70,6 +84,9 @@ export default function Project(){
             </span>
             <div className="desc text-left">
             <h2><strong>Lending Automation Processing System</strong></h2>
+            <div className="text-center">
+                 <div ><img src={loan} className="author-img"></img></div>
+                 </div>
               <p><strong>Organization:</strong> SysArc Infomatix Pvt Ltd<br />
                  <strong>Duration:</strong> October 2017 - August 2019<br /> 
                  <strong>Client:</strong> Abu Dhabi Commercial Bank, Eastern Bank Limited, Al Masraf, Yes Bank<br />

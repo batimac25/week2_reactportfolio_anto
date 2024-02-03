@@ -1,3 +1,8 @@
+/* FileName : Home.jsx,
+ * StudentName : Antony Tibursias Brightes Machado
+ * StudentId : 301380198
+ * Date : 02-02-2024 */
+
 import './../home/home.css';
 import bg_image from '../../assets/images/intro3.jpeg';
 import mypic from '../../assets/images/about.jpg';

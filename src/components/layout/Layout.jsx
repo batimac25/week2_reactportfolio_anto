@@ -1,3 +1,8 @@
+/* FileName : Layout.jsx,
+ * StudentName : Antony Tibursias Brightes Machado
+ * StudentId : 301380198
+ * Date : 02-02-2024 */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import portfolio_logo from '../../assets/images/portfolio_logo.jpeg';

@@ -1,3 +1,8 @@
+/* FileName : about.jsx,
+ * StudentName : Antony Tibursias Brightes Machado
+ * StudentId : 301380198
+ * Date : 02-02-2024 */
+
 import './../about/about.css';
 
 export default function About(){
