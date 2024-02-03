@@ -10,8 +10,8 @@ return (<>
     <div className="home-content">
       <ul className="slides">
         <li className='lr-animation'>
-                <div class="text-center">
-                 <div ><img src={mypic} class="author-img"></img></div>
+                <div className="text-center">
+                 <div ><img src={mypic} className="author-img"></img></div>
                  </div>
         </li>
         <li className='lr-animation'>

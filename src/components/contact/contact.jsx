@@ -1,7 +1,15 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './../contact/contact.css'; 
 
 export default function Contact() {
+    const navigate = useNavigate();
+
+    const submitContact = (event) => {
+        event.preventDefault();
+        alert("Message sent successfully!!");
+        navigate('/',{replace:true});
+    }
+
 return (
 <>
   <section className="anto-contact-section" data-section="contact" id="contact">
@@ -47,7 +55,7 @@ return (
         <div className="col-md-7 col-md-push-1">
           <div className="row">
             <div className="animate-box fadeFromBottom" data-animate-effect="fadeInRight">
-              <form action="">
+              <form onSubmit={submitContact}>
                 <div className="form-group">
                   <input type="text" className="form-control" placeholder="FirtName" />
                 </div>
@@ -65,8 +73,7 @@ return (
                     placeholder="Message"></textarea>
                 </div>
                 <div className="form-group">
-                  <Link to="/"><input type="submit" className="btn btn-primary btn-send-message" value="Send Message"/>
-                  </Link>
+                  <input type="submit" className="btn btn-primary btn-send-message" value="Send Message"/>
                 </div>
               </form>
             </div>
